@@ -74,6 +74,7 @@ caption {
 		}
 	}
 	$(document).ready(function() {
+		debugger;
 		$(".del").click(function() {
 			return confirm("确定要删除吗？");
 		});
